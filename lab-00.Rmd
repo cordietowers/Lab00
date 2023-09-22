@@ -17,15 +17,15 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("mcgregors-garden", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  name = c("Pari", "Amelia", "Toisin", 
+           "Audrey", "Grace"),
+  github_username = c("PariLakhankar", "AmeliaGriffiths", "tosin-adem", 
+                      "audreythill", "gmrieuclarke"), 
+  colour = c("turquoise", "lightblue", "purple", 
+             "pink", "red"),
+  hobby = c("walking", "skiing", "music", 
+            "dance", "climbing"),
+  favourite_number = c(5, 7, 4, 6, 7)
   )
 
 team_data
@@ -47,17 +47,18 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+*a bar graph of github usernames plotted against favourite numbers, each bar being the users favorite colour*
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Github usernames", 
+          y = "Favourite number",
+          title = "Excercise 19")
 ```
+?labs
 
 *Remove this text (including the stars), and add your answer for Exercise 19 here.*
 
